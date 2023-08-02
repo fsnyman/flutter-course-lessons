@@ -12,6 +12,7 @@ class RecipeApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      //use material 3
       title: 'Recipe Calculator',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(
